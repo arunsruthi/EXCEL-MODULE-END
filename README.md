@@ -1,5 +1,5 @@
 # EXCEL-MODULE-END
-<B>CUSTOMER  TABLE</B><BR><BR>
+<U><B>CUSTOMER  TABLE</B></U><BR><BR>
 •	United states of  america is replace with --USA
 •	Customer name is converted into capital letter also prefix Corrected
 •	Missing values in loyalty
@@ -7,7 +7,7 @@
 •	5 duplicate values are present
 •	Using COUNTA Function to count total number of customers
          COUNTA(B2:B501)<BR><BR>
-<B>PRODUCT TABLE</B><BR>
+<U><B>PRODUCT TABLE</B></U><BR>
 •	Correction in p-3 to PROD 3
 •	Correction in missing values in stock and cost  
 •	 Missing values in stock is corrected by using statistical method  mean
@@ -34,7 +34,7 @@ Sum	26895
 Count	100	
 <BR><BR>
 
-<B>SALES TABLE<B><BR><BR>
+<U><B>SALES TABLE<B></U><BR><BR>
 •	Total Amount missing value is replaced by using this formula
        Total Amount = Quantity*Unit Price/(1 -Discount)
 
@@ -54,7 +54,7 @@ Count	100
 •	Using vlookup find performance of store 7
           =VLOOKUP(E13,E1:L91,8)
 
-<B><UL>DASHBOARD</UL></B><BR>
+<B><U>DASHBOARD</U></B><BR>
 •	Summary Cards:
 o	Total Customers: 500
 o	Number of Store: 20
